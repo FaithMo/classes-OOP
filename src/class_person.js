@@ -14,6 +14,7 @@ class Person {
 }
 
 var firstPerson = new Person("Leo", 25, "male", ["drawing", "coding", "reading", "playing FIFA"]);
+var secondPerson = new Person("Mary", 15, "female", ["singing", "acting", "reading", "playing dolls"]);
 
 console.log(firstPerson);
 console.log(firstPerson.hello());
